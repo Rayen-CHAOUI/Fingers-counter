@@ -1,6 +1,6 @@
-# Rayen's Finger Counter
+# Finger Counter
 
-**Rayen's Finger Counter** est une application simple interactive en Python qui utilise **OpenCV** et **MediaPipe** pour détecter les mains et compter le nombre de doigts levés en temps réel via une interface graphique élégante conçue avec **CustomTkinter**.
+**Finger Counter** est une application simple interactive en Python qui utilise **OpenCV** et **MediaPipe** pour détecter les mains et compter le nombre de doigts levés en temps réel via une interface graphique élégante conçue avec **CustomTkinter**.
 
 ---
 
@@ -29,22 +29,24 @@
 ```bash
 git clone https://github.com/votre-utilisateur/Fingers-counter.git
 ```
-cd Fingers-counter
+- `cd Fingers-counter`
 
 2. **Créer un environnement virtuel :**
-python -m venv venv
-source venv/bin/activate  # ou `venv\Scripts\activate` sur Windows
+- python -m venv venv
+- source venv/bin/activate  
+- ***ou `venv\Scripts\activate` sur Windows***
 
 3. **Installer les dépendencies :**
 `pip install -r requirements.txt`
 
 4. **Lancer l-application :**
-`python main.py`  # ensuite clique sur Start Live Finger Counter depuis l'interface.
+- `python main.py`  
+- ensuite clique sur Start Live Finger Counter depuis l'interface.
 
 ---
 
 # Raccourcis utiles : 
-Appuie sur q pour quitter la fenêtre de détection.
+Appuie sur 'q' pour quitter la fenêtre de détection.
 
 ---
 
